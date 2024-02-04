@@ -127,12 +127,20 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="182dp"
+                        android:layout_height="165dp"
+                        app:srcCompat="@drawable/lost_bg"
+                        tools:layout_editor_absoluteX="187dp"
+                        tools:layout_editor_absoluteY="-5dp" />
+
                     <TextView
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
-                        android:text="15% Discount On All \nNew Stock"
+                        android:text="New Arrivals for Men, \nWomen and Children"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         android:textStyle="bold"
